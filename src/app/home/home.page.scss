@@ -27,10 +27,28 @@
 }
 
 .contenido {
-  background-color: white;
+  background-color: plum;
 }
 
 .tarjetas {
-  background-color: white;
+  background-color: greenyellow;
   color: black;
+}
+
+@media only screen and (max-width: 600px) {
+  .desaparece {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .oculto {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .tarjetas {
+    color: white;
+  }
 }

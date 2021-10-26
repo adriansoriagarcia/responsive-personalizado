@@ -10,9 +10,10 @@ import { map } from 'rxjs/operators';
 export class HomePage {
 
   users: any;
+  filtro: string = ' ';
 
   constructor(private httpClient: HttpClient) {
-    this.users = this.httpClient.get('https://raw.githubusercontent.com/adriansoriagarcia/responsive-personalizado/master/datos.json');
+    this.users = this.httpClient.get('https://raw.githubusercontent.com/adriansoriagarcia/responsive-personalizado/master/datosaleatorios.json');
     console.log(this.users);
   }
 
