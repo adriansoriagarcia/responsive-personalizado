@@ -13,7 +13,7 @@ export class HomePage {
 
   constructor(private httpClient: HttpClient) {
     this.users = this.httpClient.get('https://raw.githubusercontent.com/adriansoriagarcia/responsive-personalizado/master/datos.json');
-   // console.log(this.users);
+    console.log(this.users);
   }
 
 }
