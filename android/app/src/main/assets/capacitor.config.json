@@ -1,0 +1,6 @@
+{
+	"appId": "io.ionic.starter",
+	"appName": "responsive-personalizado",
+	"webDir": "www",
+	"bundledWebRuntime": false
+}
